@@ -1,19 +1,23 @@
 import './App.css';
-import Article from './components/Article';
+import ArticleList from './components/ArticleList';
 import Copyright from './components/Copyright';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import Nav from './components/Nav';
+import { Container } from './styles/styled';
 
 function App() {
   return (
     <div className="fashion-app">
+      <Container> 
+
       <Header />
       <Nav />
-      <Article />
+      <ArticleList />
       <Footer />
       <Copyright />
    
+      </Container>
     </div>
   );
 }

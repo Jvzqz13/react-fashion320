@@ -11,9 +11,7 @@ function Nav () {
                 <li><a href="button"> AdWatch </a></li>
                 <li><a href="button"> About </a></li>   
             </ul>
-        </Navi>
-         
-        
+        </Navi> 
     )
 }
 

@@ -1,6 +1,8 @@
+import { FooterCopyright } from "../styles/styled";
+
 function Copyright () {
     return (
-        <p> ©️ 2013 Valet Industries, Inc </p>
+        <FooterCopyright> ©️ 2013 Valet Industries, Inc </FooterCopyright>
     )
 }
 

@@ -1,13 +1,14 @@
+import { ArticleCont } from '../styles/styled';
 import imgOne from '../images/blog-image-1.jpg'
 import imgTwo from '../images/blog-image-2.jpg'
 
 function Article () {
     return (
-        <article>
+        <ArticleCont>
             <article class="blog">
                 <h3>11/12/20</h3>
                 <h2> On the Street in Booklyn </h2>
-                <img src={imgOne} alt="blog1" />
+                <img src={imgOne} alt="blog1" style={{width: "90%"}} />
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, dolorem consectetur nulla assumenda tenetur tempore beatae explicabo officia eos ex officiis dolore dicta reprehenderit, quis porro ut repellendus dolorum libero?
                     Reprehenderit quam voluptatum dolor facere laborum distinctio delectus obcaecati consectetur perferendis. Temporibus ipsum laudantium porro excepturi cum quia asperiores, ipsam pariatur eum, omnis, quasi expedita! Aliquam, quos. Provident, rerum non!
@@ -19,9 +20,9 @@ function Article () {
 
             </article>
             <article class="blog">
-                <h3>11/11/20</h3>
-                <h2> Vintage in Vogue </h2>
-                <img src={imgTwo} alt="blog2" />
+                <h3>11/12/20</h3>
+                <h2> On the Street in Booklyn </h2>
+                <img src={imgTwo} alt="blog2" style={{width: "90%"}} />
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, dolorem consectetur nulla assumenda tenetur tempore beatae explicabo officia eos ex officiis dolore dicta reprehenderit, quis porro ut repellendus dolorum libero?
                     Reprehenderit quam voluptatum dolor facere laborum distinctio delectus obcaecati consectetur perferendis. Temporibus ipsum laudantium porro excepturi cum quia asperiores, ipsam pariatur eum, omnis, quasi expedita! Aliquam, quos. Provident, rerum non!
@@ -32,7 +33,7 @@ function Article () {
                 <a href="button"> Continues... </a>
 
             </article>
-        </article>
+        </ArticleCont>
     )
 }
 
