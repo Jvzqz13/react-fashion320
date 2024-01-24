@@ -1,3 +1,4 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/3a4a16ff-1761-4d2e-a8ca-ae687bc831d3/deploy-status)](https://app.netlify.com/sites/react-fashion-app/deploys)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
